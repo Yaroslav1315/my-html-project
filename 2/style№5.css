@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: snow;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 540px;
+    background: linear-gradient(to top right, #6fd3d1, #479a89);
+}
+form {
+    height: 440px;
+    width: 480px;
+}
+.header, .footer {
+    background-color: #e4eeef;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.header {
+    padding-left: 30px;
+}
+.header h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.main {
+    background-color: #edf7f9;
+    height: 280px; /*240*/
+    border-top: 1px solid #d0dadb;
+    border-bottom: 1px solid #d0dadb;
+    padding: 40px;
+}
+label{
+    color: #726a6e;
+    font-size: 1.1rem;
+    
+}
+input{
+    height: 38px;
+    width: 240px;
+    border: 2px solid #e4e4e4;
+}
+.forgot {
+    margin-left: 125px;
+    margin-top: -25px;
+    margin-bottom: 42px;
+}
+.check-box {
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+#email {
+    margin-left: 74px;
+}
+#password {
+    margin-left: 50px;
+}
+#keepLoggedIn {
+    margin-left: 130px;
+    height: 20px;
+    width: 40px;
+    margin-bottom: 0;
+}
+label[for='keepLoggedIn'] {
+    color: black;
+    padding-bottom: 2px;
+}
+.footer {
+    justify-content: flex-end;
+}
+.register {
+    background-color: #c0c1c0;
+    color: white;
+    height: 40px;
+    margin-right: 30px;
+    width: 90px;
+    cursor: pointer;
+    border: none;
+}
+.logIn  {
+    background-color: #59b5e0;
+    color: white;
+    height: 40px;
+    margin-right: 30px;
+    width: 90px;
+    cursor: pointer;
+    border: none;
+}
+.icon {
+    height: 40px;
+    width: 36px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e4e4e4;
+    border-left: none;
+}
+.icon svg {
+    height: 18px;
+    fill: #cacaca;
+}
+.input-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
